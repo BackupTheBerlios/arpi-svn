@@ -1,0 +1,930 @@
+[Box: ::uSatelite - ::<<Unknown>>::TObject]
+X=20
+Y=40
+Visible=0
+
+[Box: ::uSatelite - ::uSatelite::TSatelite]
+X=17
+Y=45
+
+[Diagram: ::uSatelite]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::uReceptor - ::<<Unknown>>::TObject]
+X=20
+Y=40
+Visible=0
+
+[Box: ::uReceptor - ::uReceptor::TReceptorExterno]
+X=12
+Y=57
+
+[Diagram: ::uReceptor]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::uPortapapeles - ::<<Unknown>>::TObject]
+X=20
+Y=40
+Visible=0
+
+[Box: ::uPortapapeles - ::uPortapapeles::Tportapapeles]
+X=12
+Y=36
+
+[Diagram: ::uPortapapeles]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::uLista - ::<<Unknown>>::TObject]
+X=122
+Y=40
+Visible=0
+
+[Box: ::uLista - ::uLista::TLista]
+X=13
+Y=36
+
+[Box: ::uLista - ::uLista::TListaClases]
+X=222
+Y=37
+
+[Diagram: ::uLista]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::uLenguajes - ::<<Unknown>>::TObject]
+X=344
+Y=40
+Visible=0
+
+[Box: ::uLenguajes - ::uLenguajes::TCompilador]
+X=14
+Y=34
+
+[Box: ::uLenguajes - ::uLenguajes::TControlLenguajes]
+X=505
+Y=33
+
+[Box: ::uLenguajes - ::uLenguajes::TLenguaje]
+X=15
+Y=381
+
+[Box: ::uLenguajes - ::uLenguajes::TListaCompiladores]
+X=294
+Y=411
+
+[Box: ::uLenguajes - ::uLenguajes::TListaLenguajes]
+X=506
+Y=411
+
+[Box: ::uLenguajes - ::uLista::TLista]
+X=295
+Y=33
+
+[Diagram: ::uLenguajes]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::uIdiomas - ::<<Unknown>>::TObject]
+X=225
+Y=40
+Visible=0
+
+[Box: ::uIdiomas - ::uIdiomas::TControlIdiomas]
+X=20
+Y=121
+
+[Box: ::uIdiomas - ::uIdiomas::TIdioma]
+X=20
+Y=349
+
+[Box: ::uIdiomas - ::uIdiomas::TListaIdiomas]
+X=225
+Y=401
+
+[Box: ::uIdiomas - ::uLista::TLista]
+X=226
+Y=21
+
+[Diagram: ::uIdiomas]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::uBuilderTipoDatos - ::<<Unknown>>::TObject]
+X=20
+Y=40
+Visible=0
+
+[Box: ::uBuilderTipoDatos - ::uBuilderTipoDatos::TBuilderTipoDato]
+X=10
+Y=25
+
+[Diagram: ::uBuilderTipoDatos]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::uEntornoDesarrollo - ::<<Unknown>>::TObject]
+X=608
+Y=40
+Visible=0
+
+[Box: ::uEntornoDesarrollo - ::uEntornoDesarrollo::TEntornoDesarrollo]
+X=6
+Y=25
+
+[Box: ::uEntornoDesarrollo - ::uIdiomas::TControlIdiomas]
+X=706
+Y=553
+
+[Box: ::uEntornoDesarrollo - ::uIdiomas::TIdioma]
+X=484
+Y=68
+
+[Box: ::uEntornoDesarrollo - ::uIdiomas::TListaIdiomas]
+X=462
+Y=569
+
+[Box: ::uEntornoDesarrollo - ::uLenguajes::TListaCompiladores]
+X=250
+Y=612
+
+[Box: ::uEntornoDesarrollo - ::uLenguajes::TListaLenguajes]
+X=474
+Y=357
+
+[Box: ::uEntornoDesarrollo - ::uPortapapeles::Tportapapeles]
+X=264
+Y=12
+
+[Box: ::uEntornoDesarrollo - ::uProyecto::TProyecto]
+X=705
+Y=12
+
+[Diagram: ::uEntornoDesarrollo]
+OffsetX=118
+OffsetY=38
+Visibility=0
+ShowAssoc=1
+
+[Box: ::uComponentes - ::<<Unknown>>::TObject]
+X=1997
+Y=40
+Visible=0
+
+[Box: ::uComponentes - ::uComponentes::TCompCheckBox]
+X=783
+Y=491
+
+[Box: ::uComponentes - ::uComponentes::TCompComboBox]
+X=1290
+Y=3
+
+[Box: ::uComponentes - ::uComponentes::TCompEdit]
+X=676
+Y=311
+
+[Box: ::uComponentes - ::uComponentes::TCompGrilla]
+X=1239
+Y=518
+
+[Box: ::uComponentes - ::uComponentes::TCompHistograma]
+X=1101
+Y=3
+
+[Box: ::uComponentes - ::uComponentes::TCompImagen]
+X=495
+Y=4
+
+[Box: ::uComponentes - ::uComponentes::TCompLabel]
+X=1049
+Y=464
+
+[Box: ::uComponentes - ::uComponentes::TCompListBox]
+X=1290
+Y=261
+
+[Box: ::uComponentes - ::uComponentes::TCompMatriz]
+X=1290
+Y=179
+
+[Box: ::uComponentes - ::uComponentes::TCompMinMaxHistograma]
+X=712
+Y=4
+
+[Box: ::uComponentes - ::uComponentes::TComponente]
+X=911
+Y=0
+
+[Box: ::uComponentes - ::uComponentes::TCompRadioGroup]
+X=1293
+Y=342
+
+[Box: ::uComponentes - ::uComponentes::TCompSlider]
+X=912
+Y=589
+
+[Box: ::uComponentes - ::uComponentes::TCompValorHistograma]
+X=1290
+Y=97
+
+[Box: ::uComponentes - ::uComponentes::TCompVector]
+X=1293
+Y=424
+
+[Box: ::uComponentes - ::uComponentes::TListaClasesComponentes]
+X=1113
+Y=650
+
+[Box: ::uComponentes - ::uComponentes::TListaComponentes]
+X=246
+Y=212
+
+[Box: ::uComponentes - ::uComponentes::TListaParametros]
+X=247
+Y=104
+
+[Box: ::uComponentes - ::uComponentes::TListaPropiedades]
+X=247
+Y=10
+
+[Box: ::uComponentes - ::uComponentes::TParametro]
+X=245
+Y=323
+
+[Box: ::uComponentes - ::uComponentes::TParametroImagen]
+X=14
+Y=508
+
+[Box: ::uComponentes - ::uComponentes::TParametroMatriz]
+X=14
+Y=420
+
+[Box: ::uComponentes - ::uComponentes::TParametroVector]
+X=13
+Y=295
+
+[Box: ::uComponentes - ::uComponentes::TPropiedad]
+X=573
+Y=500
+
+[Box: ::uComponentes - ::uComponentes::TVariable]
+X=458
+Y=113
+
+[Box: ::uComponentes - ::uLista::TLista]
+X=12
+Y=31
+
+[Box: ::uComponentes - ::uLista::TListaClases]
+X=679
+Y=597
+
+[Box: ::uComponentes - ::uReferencia::TListaReferencias]
+X=240
+Y=602
+
+[Box: ::uComponentes - ::uTipos::TTipo]
+X=457
+Y=596
+
+[Diagram: ::uComponentes]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::uTipos - ::<<Unknown>>::TComponent]
+X=20
+Y=40
+Visible=0
+
+[Box: ::uTipos - ::<<Unknown>>::TObject]
+X=1153
+Y=40
+Visible=0
+
+[Box: ::uTipos - ::uIdiomas::TIdioma]
+X=20
+Y=330
+
+[Box: ::uTipos - ::uLista::TLista]
+X=24
+Y=723
+
+[Box: ::uTipos - ::uTipos::TCmdMatrizCopiar]
+X=753
+Y=6
+
+[Box: ::uTipos - ::uTipos::TCmdMatrizCortar]
+X=687
+Y=393
+
+[Box: ::uTipos - ::uTipos::TCmdMatrizEliminarColumna]
+X=218
+Y=78
+
+[Box: ::uTipos - ::uTipos::TCmdMatrizEliminarFila]
+X=754
+Y=279
+
+[Box: ::uTipos - ::uTipos::TCmdMatrizInicializar]
+X=755
+Y=142
+
+[Box: ::uTipos - ::uTipos::TCmdMatrizInsertarColumna]
+X=456
+Y=370
+
+[Box: ::uTipos - ::uTipos::TCmdMatrizInsertarFila]
+X=222
+Y=199
+
+[Box: ::uTipos - ::uTipos::TCmdMatrizModificar]
+X=218
+Y=374
+
+[Box: ::uTipos - ::uTipos::TCmdMatrizPegar]
+X=456
+Y=83
+
+[Box: ::uTipos - ::uTipos::TCmdVectorPegar]
+X=457
+Y=0
+
+[Box: ::uTipos - ::uTipos::TComando]
+X=456
+Y=255
+
+[Box: ::uTipos - ::uTipos::TComplejo]
+X=458
+Y=911
+
+[Box: ::uTipos - ::uTipos::TEstructura]
+X=688
+Y=561
+
+[Box: ::uTipos - ::uTipos::THistorialComandos]
+X=947
+Y=1088
+
+[Box: ::uTipos - ::uTipos::THistorialImagen]
+X=959
+Y=123
+
+[Box: ::uTipos - ::uTipos::TImagen]
+X=1171
+Y=10
+
+[Box: ::uTipos - ::uTipos::TJpegToBmp]
+X=20
+Y=121
+Visible=0
+
+[Box: ::uTipos - ::uTipos::TLetra]
+X=230
+Y=772
+
+[Box: ::uTipos - ::uTipos::TListaComandos]
+X=248
+Y=1123
+
+[Box: ::uTipos - ::uTipos::TListaTextos]
+X=24
+Y=605
+
+[Box: ::uTipos - ::uTipos::TListaTipos]
+X=24
+Y=1017
+
+[Box: ::uTipos - ::uTipos::TListaValorImagen]
+X=960
+Y=502
+
+[Box: ::uTipos - ::uTipos::TMatriz]
+X=1173
+Y=825
+
+[Box: ::uTipos - ::uTipos::TMatrizSimple]
+X=957
+Y=623
+
+[Box: ::uTipos - ::uTipos::TNumero]
+X=689
+Y=763
+
+[Box: ::uTipos - ::uTipos::TNumeroEntero]
+X=685
+Y=972
+
+[Box: ::uTipos - ::uTipos::TTexto]
+X=229
+Y=542
+
+[Box: ::uTipos - ::uTipos::TTextoSimple]
+X=20
+Y=40
+
+[Box: ::uTipos - ::uTipos::TTipo]
+X=458
+Y=563
+
+[Box: ::uTipos - ::uTipos::TTipoContenible]
+X=457
+Y=823
+
+[Box: ::uTipos - ::uTipos::TVector]
+X=1175
+Y=380
+
+[Diagram: ::uTipos]
+OffsetX=657
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::<<Unknown>> - ::<<Unknown>>::TComponent]
+X=20
+Y=40
+Visible=0
+
+[Box: ::<<Unknown>> - ::<<Unknown>>::TObject]
+X=225
+Y=40
+Visible=0
+
+[Diagram: ::<<Unknown>>]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Diagram:]
+OffsetX=0
+OffsetY=863
+Visibility=0
+ShowAssoc=1
+
+[Box:  - ::uCompilador]
+X=6
+Y=573
+
+[Box:  - ::uEntornoDesarrollo]
+X=1070
+Y=96
+
+[Box:  - ::uMatriz]
+X=20
+Y=635
+Visible=0
+
+[Diagram:]
+OffsetX=0
+OffsetY=428
+Visibility=0
+ShowAssoc=1
+
+[Box: ::uAlgoritmo - ::<<Unknown>>::TObject]
+X=1247
+Y=40
+Visible=0
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::_TListaPasos]
+X=2854
+Y=619
+Visible=0
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TAccion]
+X=652
+Y=735
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TAccionAlgoritmo]
+X=651
+Y=1001
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TAccionSecuencia]
+X=365
+Y=933
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TAccionTrabajo]
+X=909
+Y=787
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TAlgoritmo]
+X=12
+Y=924
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TListaAccion]
+X=687
+Y=114
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TListaAlgoritmos]
+X=687
+Y=229
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TListaProcesadores]
+X=686
+Y=16
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TListaSecuencias]
+X=908
+Y=14
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TPaso]
+X=15
+Y=50
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TProcesador]
+X=1075
+Y=673
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TProcesadorLocal]
+X=1076
+Y=577
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TProcesadorRemoto]
+X=1074
+Y=989
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TSecuencia]
+X=239
+Y=556
+
+[Box: ::uAlgoritmo - ::uAlgoritmo::TTrabajo]
+X=908
+Y=341
+
+[Box: ::uAlgoritmo - ::uComponentes::TListaParametros]
+X=228
+Y=355
+
+[Box: ::uAlgoritmo - ::uComponentes::TListaPropiedades]
+X=673
+Y=390
+
+[Box: ::uAlgoritmo - ::uIdiomas::TIdioma]
+X=236
+Y=1077
+
+[Box: ::uAlgoritmo - ::uIdiomas::TListaIdiomas]
+X=441
+Y=557
+
+[Box: ::uAlgoritmo - ::uLista::TLista]
+X=440
+Y=8
+
+[Box: ::uAlgoritmo - ::uProyecto::TFormularioInterfaz]
+X=11
+Y=534
+
+[Box: ::uAlgoritmo - ::uProyecto::TListaAtributos]
+X=640
+Y=596
+
+[Box: ::uAlgoritmo - ::uReceptor::TReceptorExterno]
+X=905
+Y=148
+
+[Box: ::uAlgoritmo - ::uSatelite::TSatelite]
+X=852
+Y=977
+
+[Diagram: ::uAlgoritmo]
+OffsetX=0
+OffsetY=518
+Visibility=0
+ShowAssoc=1
+
+[Box:  - ::uAlgoritmo]
+X=2
+Y=112
+
+[Box:  - ::uBuilderTipoDatos]
+X=2
+Y=436
+
+[Box:  - ::uComponentes]
+X=1
+Y=304
+
+[Box:  - ::uConsts]
+X=658
+Y=11
+
+[Box:  - ::uEntornoEjecucion]
+X=392
+Y=10
+
+[Box:  - ::uIdiomas]
+X=654
+Y=532
+
+[Box:  - ::uLenguajes]
+X=1071
+Y=576
+
+[Box:  - ::uLista]
+X=245
+Y=573
+
+[Box:  - ::uPortapapeles]
+X=843
+Y=97
+
+[Box:  - ::uProyecto]
+X=421
+Y=301
+
+[Box:  - ::uReceptor]
+X=1
+Y=6
+
+[Box:  - ::uReferencia]
+X=616
+Y=244
+
+[Box:  - ::uSatelite]
+X=188
+Y=7
+
+[Box:  - ::uTipos]
+X=959
+Y=429
+
+[Diagram:]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::uEntornoEjecucion - ::<<Unknown>>::TObject]
+X=2294
+Y=40
+Visible=0
+
+[Box: ::uEntornoEjecucion - ::uAlgoritmo::TListaAccion]
+X=1206
+Y=357
+
+[Box: ::uEntornoEjecucion - ::uAlgoritmo::TListaAlgoritmos]
+X=309
+Y=401
+
+[Box: ::uEntornoEjecucion - ::uAlgoritmo::TListaProcesadores]
+X=1203
+Y=812
+
+[Box: ::uEntornoEjecucion - ::uAlgoritmo::TListaSecuencias]
+X=290
+Y=1605
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TBuscadorSatelites]
+X=1204
+Y=183
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TCategoria]
+X=935
+Y=1178
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TControladorProcesamiento]
+X=1202
+Y=525
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TControlListaDePasos]
+X=289
+Y=1284
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TEntornoEjecucion]
+X=0
+Y=75
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TListaCategorias]
+X=1218
+Y=1572
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TListaEstructuras]
+X=507
+Y=403
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TListaNodosAlgoritmos]
+X=939
+Y=1013
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TNodoAlgoritmo]
+X=1218
+Y=1167
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TOrganizadorEjecucion]
+X=880
+Y=317
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TReceptorResultados]
+X=904
+Y=160
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TReferenciaEstructura]
+X=496
+Y=184
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TReferenciaEstructuraImagen]
+X=682
+Y=341
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TReferenciaEstructuraMatriz]
+X=496
+Y=342
+
+[Box: ::uEntornoEjecucion - ::uEntornoEjecucion::TReferenciaEstructuraVector]
+X=306
+Y=341
+
+[Box: ::uEntornoEjecucion - ::uIdiomas::TControlIdiomas]
+X=686
+Y=1353
+
+[Box: ::uEntornoEjecucion - ::uIdiomas::TIdioma]
+X=1217
+Y=938
+
+[Box: ::uEntornoEjecucion - ::uIdiomas::TListaIdiomas]
+X=685
+Y=1059
+
+[Box: ::uEntornoEjecucion - ::uLista::TLista]
+X=2069
+Y=316
+Visible=0
+
+[Box: ::uEntornoEjecucion - ::uPortapapeles::Tportapapeles]
+X=684
+Y=1531
+
+[Box: ::uEntornoEjecucion - ::uReferencia::TListaReferencias]
+X=928
+Y=655
+
+[Box: ::uEntornoEjecucion - ::uReferencia::TReferencia]
+X=496
+Y=39
+
+[Box: ::uEntornoEjecucion - ::uTipos::TEstructura]
+X=264
+Y=129
+
+[Diagram: ::uEntornoEjecucion]
+OffsetX=1139
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::uProyecto - ::<<Unknown>>::TObject]
+X=1323
+Y=40
+Visible=0
+
+[Box: ::uProyecto - ::uComponentes::TListaClasesComponentes]
+X=846
+Y=315
+
+[Box: ::uProyecto - ::uComponentes::TListaComponentes]
+X=405
+Y=701
+
+[Box: ::uProyecto - ::uComponentes::TListaParametros]
+X=321
+Y=574
+
+[Box: ::uProyecto - ::uComponentes::TPropiedad]
+X=634
+Y=785
+
+[Box: ::uProyecto - ::uIdiomas::TControlIdiomas]
+X=13
+Y=209
+
+[Box: ::uProyecto - ::uIdiomas::TIdioma]
+X=425
+Y=197
+
+[Box: ::uProyecto - ::uIdiomas::TListaIdiomas]
+X=14
+Y=396
+
+[Box: ::uProyecto - ::uLenguajes::TLenguaje]
+X=11
+Y=29
+
+[Box: ::uProyecto - ::uLista::TLista]
+X=14
+Y=562
+
+[Box: ::uProyecto - ::uLista::TListaClases]
+X=636
+Y=109
+
+[Box: ::uProyecto - ::uProyecto::TAlineacion]
+X=299
+Y=964
+
+[Box: ::uProyecto - ::uProyecto::TAlineacionAbajo]
+X=569
+Y=1061
+
+[Box: ::uProyecto - ::uProyecto::TAlineacionArriba]
+X=19
+Y=1159
+
+[Box: ::uProyecto - ::uProyecto::TAlineacionCentradoHFormulario]
+X=536
+Y=1151
+
+[Box: ::uProyecto - ::uProyecto::TAlineacionCentradoVFormulario]
+X=19
+Y=1056
+
+[Box: ::uProyecto - ::uProyecto::TAlineacionCentroH]
+X=298
+Y=1274
+
+[Box: ::uProyecto - ::uProyecto::TAlineacionCentroV]
+X=19
+Y=896
+
+[Box: ::uProyecto - ::uProyecto::TAlineacionDerecha]
+X=571
+Y=966
+
+[Box: ::uProyecto - ::uProyecto::TAlineacionIgualarEspaciadoH]
+X=420
+Y=1218
+
+[Box: ::uProyecto - ::uProyecto::TAlineacionIgualarEspaciadoV]
+X=19
+Y=962
+
+[Box: ::uProyecto - ::uProyecto::TAlineacionIzquierda]
+X=565
+Y=885
+
+[Box: ::uProyecto - ::uProyecto::TAlineacionSinCambios]
+X=148
+Y=1217
+
+[Box: ::uProyecto - ::uProyecto::TAtributo]
+X=889
+Y=876
+
+[Box: ::uProyecto - ::uProyecto::TControlAlineacion]
+X=889
+Y=126
+
+[Box: ::uProyecto - ::uProyecto::TEditorCodigo]
+X=424
+Y=26
+
+[Box: ::uProyecto - ::uProyecto::TFormularioInterfaz]
+X=630
+Y=358
+
+[Box: ::uProyecto - ::uProyecto::TListaAtributos]
+X=217
+Y=776
+
+[Box: ::uProyecto - ::uProyecto::TListaClaseAlineacion]
+X=890
+Y=10
+
+[Box: ::uProyecto - ::uProyecto::TPaletaComponentes]
+X=861
+Y=436
+
+[Box: ::uProyecto - ::uProyecto::TProyecto]
+X=216
+Y=28
+
+[Box: ::uProyecto - ::uTipos::TTexto]
+X=889
+Y=613
+
+[Diagram: ::uProyecto]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+

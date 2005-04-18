@@ -1,0 +1,136 @@
+unit uPortapapeles;
+
+interface
+
+uses
+  SysUtils, Windows, Messages, Classes, Graphics, Controls,
+  Forms, Dialogs, uTipos;
+
+type
+  TPortapapeles = class (TObject)
+  protected
+    constructor CreateInstance;
+    class function AccessInstance(Request: Integer): TPortapapeles;
+  public
+    constructor Create;
+    destructor Destroy; override;
+    procedure agregarImagen(unaImagen:TImagen);
+    procedure agregarMatriz(unaMatriz:TMatrizSimple);
+    procedure agregarVector(unVector: TMatrizSimple);
+    function getImagen: TImagen;
+    function getMatriz: TMatrizSimple;
+    function getVector: TMatrizSimple;
+    class function Instance: TPortapapeles;
+    class procedure ReleaseInstance;
+  end;
+  
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+end;
+
+{
+******************************** TPortapapeles *********************************
+}
+constructor TPortapapeles.Create;
+begin
+  inherited Create;
+  raise Exception.CreateFmt('Access class %s through Instance only', 
+          [ClassName]);
+end;
+
+constructor TPortapapeles.CreateInstance;
+begin
+  inherited Create;
+end;
+
+destructor TPortapapeles.Destroy;
+begin
+  if AccessInstance(0) = Self then AccessInstance(2);
+  inherited Destroy;
+end;
+
+class function TPortapapeles.AccessInstance(Request: Integer): TPortapapeles;
+  
+  const FInstance: TPortapapeles = nil;
+  
+begin
+  case Request of
+    0 : ;
+    1 : if not Assigned(FInstance) then FInstance := CreateInstance;
+    2 : FInstance := nil;
+  else
+    raise Exception.CreateFmt('Illegal request %d in AccessInstance', 
+            [Request]);
+  end;
+  Result := FInstance;
+end;
+
+procedure TPortapapeles.agregarImagen(unaImagen:TImagen);
+var
+  MyFormat: Word;
+  Bitmap: TBitMap;
+  AData, APalette: THandle;
+begin
+  {  Bitmap := TBitmap.Create;
+    try
+      Bitmap.LoadFromFile('c:\Program Files\Common Files\Borland Shared\Images\Splash\256color\factory.bmp');
+      Bitmap.SaveToClipBoardFormat(MyFormat,AData,APalette);
+      ClipBoard.SetAsHandle(MyFormat,AData);
+    except
+    end;}
+end;
+
+procedure TPortapapeles.agregarMatriz(unaMatriz:TMatrizSimple);
+begin
+end;
+
+procedure TPortapapeles.agregarVector(unVector: TMatrizSimple);
+begin
+end;
+
+function TPortapapeles.getImagen: TImagen;
+begin
+  {  if Clipboard.HasFormat(CF_TEXT) then
+      Edit1.Text := Clipboard.AsText
+    else
+      MessageDlg('There is no text on the Clipboard', mtInformation,
+          [mbOK],0);
+  }
+end;
+
+function TPortapapeles.getMatriz: TMatrizSimple;
+begin
+  {  if Clipboard.HasFormat(CF_TEXT) then
+      Edit1.Text := Clipboard.AsText
+    else
+      MessageDlg('There is no text on the Clipboard', mtInformation,
+          [mbOK],0);
+  }
+end;
+
+function TPortapapeles.getVector: TMatrizSimple;
+begin
+  {  if Clipboard.HasFormat(CF_TEXT) then
+      Edit1.Text := Clipboard.AsText
+    else
+      MessageDlg('There is no text on the Clipboard', mtInformation,
+          [mbOK],0);
+  }
+end;
+
+class function TPortapapeles.Instance: TPortapapeles;
+begin
+  Result := AccessInstance(1);
+end;
+
+class procedure TPortapapeles.ReleaseInstance;
+begin
+  AccessInstance(0).Free;
+end;
+
+end.
